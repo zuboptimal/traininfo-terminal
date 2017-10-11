@@ -1,0 +1,61 @@
+#!/bin/bash
+
+
+./trainFetchHTML.sh > trains.html
+
+cat trains.html | ./getNextTrain.sh 2 > nextTrain
+
+trainName=`cat nextTrain | ./getTrainName.sh`
+trainNumber=`cat nextTrain | ./getTrainNo.sh`
+arrivalTime=`cat nextTrain | ./getArrivalTime.sh`
+journeyDate=`date "+%d-%b-%Y"`
+
+./nextTrainStatus $trainNumber $journeyDate  > nextTrainStatus.html
+
+trainStatus=`cat nextTrainStatus.html | ./getTrainStatus.sh`
+
+
+printf "\n"
+echo "Train Name    :$trainName"
+echo "Train No.     :$trainNumber"
+echo "Arrival Time  :$arrivalTime"
+echo "Status        :$trainStatus"
+
+
+cat trains.html | ./getNextTrain.sh 3 > nextTrain
+
+trainName=`cat nextTrain | ./getTrainName.sh`
+trainNumber=`cat nextTrain | ./getTrainNo.sh`
+arrivalTime=`cat nextTrain | ./getArrivalTime.sh`
+journeyDate=`date "+%d-%b-%Y"`
+
+./nextTrainStatus $trainNumber $journeyDate  > nextTrainStatus.html
+
+trainStatus=`cat nextTrainStatus.html | ./getTrainStatus.sh`
+
+
+printf "\n"
+echo "Train Name    :$trainName"
+echo "Train No.     :$trainNumber"
+echo "Arrival Time  :$arrivalTime"
+echo "Status        :$trainStatus"
+
+cat trains.html | ./getNextTrain.sh 4 > nextTrain
+
+trainName=`cat nextTrain | ./getTrainName.sh`
+trainNumber=`cat nextTrain | ./getTrainNo.sh`
+arrivalTime=`cat nextTrain | ./getArrivalTime.sh`
+journeyDate=`date "+%d-%b-%Y"`
+
+./nextTrainStatus $trainNumber $journeyDate  > nextTrainStatus.html
+
+trainStatus=`cat nextTrainStatus.html | ./getTrainStatus.sh`
+
+
+printf "\n"
+echo "Train Name    :$trainName"
+echo "Train No.     :$trainNumber"
+echo "Arrival Time  :$arrivalTime"
+echo "Status        :$trainStatus"
+
+

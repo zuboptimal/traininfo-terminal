@@ -1,0 +1,33 @@
+<tr class="basic">		    
+			<td align="left" nowrap><a href="javascript:onTrainInputByLiveStation('56376')" class="trainTypePAS trainTypeU">56376</a> [ERS-GUV]<br> <a href="javascript:showTrainServiceSchedule('56376','11-Oct-2017',document.getElementsByName('frmSTN')%5B0%5D);" class="trainTypePAS trainTypeU">ERS-GUV PASSR</a></td>
+			<td nowrap>20:06<br> 20:07</td>
+			<td nowrap>
+			
+				
+					<font color="green">
+				
+				20:06</font>
+			
+			<br>
+			
+				
+					<font color="green">
+				 20:07</font>
+			</td>
+			<td nowrap>
+			
+				
+					<font color="green">
+				
+				RT</font>
+			
+			<br>
+			
+				
+					<font color="green">
+				 RT</font>
+			</td>
+			<td nowrap>
+			 
+			</td>
+		</tr>

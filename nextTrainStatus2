@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -s 'https://enquiry.indianrail.gov.in/mntes/q?opt=TrainRunning&subOpt=ShowRunC' --data "trainNo=$1&jStation=AWY%23false&jDate=10-Oct-2017&jDateMap=10-Oct-2017&jDateDay=Tue" --compressed
