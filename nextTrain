@@ -1,31 +1,31 @@
 <tr class="basic">		    
-			<td align="left" nowrap><a href="javascript:onTrainInputByLiveStation('56376')" class="trainTypePAS trainTypeU">56376</a> [ERS-GUV]<br> <a href="javascript:showTrainServiceSchedule('56376','11-Oct-2017',document.getElementsByName('frmSTN')%5B0%5D);" class="trainTypePAS trainTypeU">ERS-GUV PASSR</a></td>
-			<td nowrap>20:06<br> 20:07</td>
+			<td align="left" nowrap><a href="javascript:onTrainInputByLiveStation('12624')" class="trainTypeSUF trainTypeU">12624</a> [TVC-MAS]<br> <a href="javascript:showTrainServiceSchedule('12624','11-Oct-2017',document.getElementsByName('frmSTN')%5B0%5D);" class="trainTypeSUF trainTypeU">CHENNAI MAIL</a></td>
+			<td nowrap>19:43<br> 19:45</td>
 			<td nowrap>
 			
 				
-					<font color="green">
+					<font color="red">
 				
-				20:06</font>
+				20:34</font>
 			
 			<br>
 			
 				
-					<font color="green">
-				 20:07</font>
+					<font color="red">
+				 20:36</font>
 			</td>
 			<td nowrap>
 			
 				
-					<font color="green">
+					<font color="red">
 				
-				RT</font>
+				00:51</font>
 			
 			<br>
 			
 				
-					<font color="green">
-				 RT</font>
+					<font color="red">
+				 00:51</font>
 			</td>
 			<td nowrap>
 			 
